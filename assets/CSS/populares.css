@@ -1,0 +1,35 @@
+.conteudo__ramen-frango {
+    text-align: center;
+    background-color: var(--cinza-claro);
+    position: relative;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.titulo__pratos-populares {
+    margin-bottom: 130px;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    font-weight: 600;
+}
+
+.imagem__ramen-frango {
+    align-self: center;
+    position: absolute;
+    top: -80px;
+}
+
+.titulo__ramen-frango {
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+}
+
+.preço__ramen-frango {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    font-weight: 400;
+}

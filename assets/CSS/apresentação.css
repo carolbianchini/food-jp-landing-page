@@ -1,4 +1,4 @@
-.apresentação {
+.apresentação, .conteudo__principal {
     display: flex;
     flex-direction: column;
 }
@@ -45,4 +45,5 @@
     text-align: center;
     color: var(--vermelho);
     font-weight: 500;
+    margin-bottom: 40px;
 }
