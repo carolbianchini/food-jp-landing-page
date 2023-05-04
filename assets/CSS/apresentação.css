@@ -1,0 +1,48 @@
+.apresentação {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo__comida-oriental {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.texto__comida-oriental {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.cardapio {
+  text-decoration: none;
+  background-color: var(--vermelho);
+  text-align: center;
+  color: var(--branco);
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.titulo__feito-tradicional {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 50px;
+}
+
+.texto__feito-tradicional {
+    text-align: center;
+    margin: 5px 0 25px;
+}
+
+.link__ler-mais {
+    text-align: center;
+    color: var(--vermelho);
+    font-weight: 500;
+}

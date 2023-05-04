@@ -4,6 +4,7 @@
 :root {
     --preto: #292929;
     --vermelho: #DA2535;
+    --branco: #FBFBFB;
     --cinza-claro: #F3F3F3;
     --fonte-paragrafo: 'Inter', sans-serif;
     --fonte-titulo: 'Montserrat', sans-serif;
@@ -12,9 +13,8 @@
 
 body{
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 0 24px;
     height: 100vh;
+    font-family: var(--fonte-paragrafo);
+    color: var(--preto);
 }
-
-
-

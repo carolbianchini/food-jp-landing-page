@@ -2,14 +2,14 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 15px 10px;
 }
 
 .logo {
     font-family:var(--fonte-titulo);
     font-weight: 700;
     color: var(--preto);
-    margin: 0 0;
+    margin: 0 0 20px;
+    font-size: 22px;
 }
 
 .logo__vermelho {
