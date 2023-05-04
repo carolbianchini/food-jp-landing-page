@@ -2,12 +2,14 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding: 15px 10px;
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
+    font-family:var(--fonte-titulo);
     font-weight: 700;
     color: var(--preto);
+    margin: 0 0;
 }
 
 .logo__vermelho {
@@ -20,13 +22,21 @@ header {
 
 .lista__menu {
     display: none;
+    flex-direction: column;
+    justify-content: space-around;
     position: absolute;
-    top: 120px;
-    left: 260px;
+    left: 250px;
+    top: 50px;
     list-style: none;
+    text-decoration: underline;
+    background-color: var(--cinza-claro);
+    font-family: var(--fonte-paragrafo);
+    height: 160px;
+    margin: 0 0;
+    padding: 10px 20px;
+    color: var(--preto);
 }
 
-
 #menu:checked ~ .lista__menu {
-    display: block;
+    display: flex;
 }
