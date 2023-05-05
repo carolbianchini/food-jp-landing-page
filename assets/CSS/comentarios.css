@@ -1,0 +1,48 @@
+.titulo__comentario {
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.comentario__daniele, .comentario__ricardo {
+   background-color: var(--cinza-claro);
+   display: flex;
+   flex-direction: column;
+   height: 240px;
+   align-items: center;
+   padding: 30px 60px;  
+   justify-content: center; 
+}
+
+.comentario__ricardo {
+    margin-top: 40px;
+}
+
+.foto__daniele, .foto__ricardo {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+}
+
+.comentario__avaliação-daniele, .comentario__avaliação-ricardo {
+    text-align: center;
+}
+
+.nome__comentario-daniele, .nome__comentario-ricardo {
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.classificação__daniele, .classificação__ricardo {
+    list-style: none;
+    display: flex;
+    padding: 0 0;
+
+}
+
+.classificação__daniele li, .classificação__ricardo li {
+    margin: 10px 5px 0 5px;
+}
