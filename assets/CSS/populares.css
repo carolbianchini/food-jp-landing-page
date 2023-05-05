@@ -1,4 +1,4 @@
-.conteudo__ramen-frango {
+.conteudo__ramen-frango, .conteudo__ramen-apimentado, .conteudo__ramen-tradicional {
     text-align: center;
     background-color: var(--cinza-claro);
     position: relative;
@@ -6,8 +6,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 40px;
     border-radius: 16px;
+}
+
+.conteudo__ramen-apimentado, .conteudo__ramen-tradicional {
+    margin-top: 140px;
 }
 
 .titulo__pratos-populares {
@@ -17,18 +21,23 @@
     font-weight: 600;
 }
 
-.imagem__ramen-frango {
+.imagem__ramen-frango, .imagem__ramen-apimentado, .imagem__ramen-tradicional{
     align-self: center;
     position: absolute;
     top: -80px;
 }
 
-.titulo__ramen-frango {
-    font-family: var(--fonte-titulo);
-    font-weight: 500;
+.imagem__ramen-tradicional {
+    top: -110px;
 }
 
-.preço__ramen-frango {
+.titulo__ramen-frango, .titulo__ramen-apimentado, .titulo__ramen-tradicional{
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.preço__ramen-frango, .preço__ramen-apimentado, .preço__ramen-tradicional {
     font-family: var(--fonte-titulo);
     font-size: 32px;
     font-weight: 400;
