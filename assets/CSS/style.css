@@ -2,6 +2,7 @@
 @import url("../CSS/apresentação.css");
 @import url("../CSS/populares.css");
 @import url("../CSS/comentarios.css");
+@import url("../CSS/localização.css");
 
 :root {
     --preto: #292929;
