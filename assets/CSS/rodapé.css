@@ -1,0 +1,24 @@
+.rodapé {
+    margin-top: 50px;
+}
+
+.conteudo__rodapé {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.serviços {
+    margin: 0 40px;
+}
+
+.rodapé h3 {
+    font-family: var(--fonte-titulo-rodapé);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rodapé p {
+    font-family: var(--fonte-paragrafo-rodapé);
+    font-size: 14px;
+}

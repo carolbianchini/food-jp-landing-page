@@ -3,6 +3,7 @@
 @import url("../CSS/populares.css");
 @import url("../CSS/comentarios.css");
 @import url("../CSS/localização.css");
+@import url("../CSS/rodapé.css");
 
 :root {
     --preto: #292929;
@@ -11,6 +12,8 @@
     --cinza-claro: #F3F3F3;
     --fonte-paragrafo: 'Inter', sans-serif;
     --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-titulo-rodapé: 'Poppins', sans-serif;
+    --fonte-paragrafo-rodapé: 'Roboto', sans-serif;
 }
 
 
