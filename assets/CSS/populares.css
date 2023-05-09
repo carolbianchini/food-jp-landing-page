@@ -43,3 +43,40 @@
     font-weight: 400;
 }
 
+@media screen and (min-width: 1024px){
+
+    .pratos__populares {
+        margin-top: 60px;
+    }
+
+    .conteudo__pratos-populares{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .conteudo__ramen-frango {
+        margin-top: 140px;
+    }
+
+    .imagem__ramen-frango  {
+        top: -115px;
+        width: 200px;
+    }
+
+    .imagem__ramen-apimentado {
+        top: -115px;
+        width: 200px;
+    }
+
+    .imagem__ramen-tradicional {
+        top: -125px;
+        width: 200px;
+    }
+
+    .conteudo__ramen-frango, .conteudo__ramen-apimentado, .conteudo__ramen-tradicional{
+        height: 320px;
+        margin: 60px 20px 0 20px;
+        padding: 20px;
+    }
+}
+

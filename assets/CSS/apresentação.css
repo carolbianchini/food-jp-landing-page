@@ -51,7 +51,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 1028px){
+@media screen and (min-width: 1024px){
 
     .apresentação {
         background: url("/assets/imagens/sushi.svg") no-repeat;

@@ -25,7 +25,7 @@ body{
     color: var(--preto);
 }
 
-@media screen and (min-width: 1028px){
+@media screen and (min-width: 1024px){
     body{
         padding: 40px 220px;
     }
