@@ -3,7 +3,6 @@
     flex-direction: column;
 }
 
-
 .titulo__comida-oriental {
     font-family: var(--fonte-titulo);
     font-weight: 600;
@@ -46,4 +45,51 @@
     color: var(--vermelho);
     font-weight: 500;
     margin-bottom: 40px;
+}
+
+.imagem__comida-oriental{
+    width: 100%;
+}
+
+@media screen and (min-width: 1028px){
+
+    .apresentação {
+        background: url("/assets/imagens/sushi.svg") no-repeat;
+        background-position: right top;
+        background-size: 250px;
+        display: flex;
+        flex-direction: column;
+  }
+
+    .cardapio {
+        width: 150px;
+        padding: 12px;
+    }
+
+    .imagem__comida-oriental {
+        margin-top: 60px;
+        width: 250px;
+    }
+
+    .tradicional {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .trad {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .titulo__feito-tradicional{
+        padding: 0 0 0 0;
+    }
+
+    .texto__feito-tradicional, .titulo__feito-tradicional, .link__ler-mais {
+        text-align: left;
+    }
+
 }
