@@ -31,6 +31,7 @@ header {
     text-decoration: underline;
     background-color: var(--cinza-claro);
     font-family: var(--fonte-paragrafo);
+    font-weight: 500;
     height: 160px;
     margin: 0 0;
     padding: 10px 20px;
@@ -40,3 +41,56 @@ header {
 #menu:checked ~ .lista__menu {
     display: flex;
 }
+
+.menu__entrar {
+    display: none;
+}
+
+@media screen and (min-width: 1028px){
+    .logo {
+        font-size: 40px;
+    }
+
+    .img__menu-hamburguer {
+        display: none;
+    }
+
+    .lista__menu {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        position: static;
+        margin: 0 auto;
+        background: none;
+        text-decoration: none;
+    }
+
+    .lista__menu li {
+        display: flex;
+        margin: 0 40px 0 40px;
+        font-size: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 420ms;
+    }
+
+    .lista__menu li:hover {
+        text-decoration: underline;
+    }
+
+    .menu__entrar {
+        display: flex;
+        padding: 10px 40px;
+        font-size: 20px;
+        font-weight: 600;
+        border: solid var(--preto) 1px;
+        height: 25px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .menu__entrar:hover {
+        text-decoration: underline;
+    }
+}
+
