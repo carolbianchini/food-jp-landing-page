@@ -6,7 +6,6 @@
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [O Que Aprendi](#o-que-aprendi)
 - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
-- [Recursos Úteis](#recursos-úteis)
 - [Autor](#autor)
 
 ## Descrição do Projeto 
@@ -15,6 +14,7 @@ Landing Page com o tema comida oriental, com menu hamburguer para versão mobile
 
 URL: [https://to-do-list-nine-iota.vercel.app/](https://food-jp-landing-page.vercel.app/)
 
+![image](https://github.com/carolbianchini/food-jp-landing-page/assets/122060348/75b99c1c-2abc-4b49-9e5e-521dde448cb8)
 
 ## Tecnologias Utilizadas
 
@@ -26,27 +26,9 @@ URL: [https://to-do-list-nine-iota.vercel.app/](https://food-jp-landing-page.ver
 
 Ao realizar o projeto aprendi como fazer um menu hamburguer utilizando apenas HTML e CSS e mobile first. 
 
-Segue exemplo, trechos dos códigos abaixo: 
-
-JS
-```js
- 
-}
-```
-
-```js
-
-}
-}
-```
-
 ### Desenvolvimento Contínuo
 
-Para os próximos projetos irei desenvolver mais o JS.
-
-### Recursos Úteis
-
-- [Artigo Data JS](https://www.delftstack.com/pt/howto/javascript/javascript-get-current-date/) - Este artigo me ajudou a incluir data em tempo real no JS.
+Para os próximos projetos irei desenvolver mais CSS Grid.
 
 ## Autor
 
