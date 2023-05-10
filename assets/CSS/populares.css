@@ -43,7 +43,7 @@
     font-weight: 400;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1300px){
 
     .pratos__populares {
         margin-top: 60px;
@@ -52,6 +52,7 @@
     .conteudo__pratos-populares{
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 
     .conteudo__ramen-frango {
@@ -75,8 +76,9 @@
 
     .conteudo__ramen-frango, .conteudo__ramen-apimentado, .conteudo__ramen-tradicional{
         height: 320px;
-        margin: 60px 20px 0 20px;
+        margin: 60px 10px 0 10px;
         padding: 20px;
+        
     }
 }
 

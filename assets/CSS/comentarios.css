@@ -14,6 +14,7 @@
    align-items: center;
    padding: 30px 60px;  
    justify-content: center; 
+   border-radius: 8px;
 }
 
 .comentario__ricardo {
@@ -28,6 +29,7 @@
 
 .comentario__avaliação-daniele, .comentario__avaliação-ricardo {
     text-align: center;
+    margin: 0 0;
 }
 
 .nome__comentario-daniele, .nome__comentario-ricardo {
@@ -45,4 +47,23 @@
 
 .classificação__daniele li, .classificação__ricardo li {
     margin: 10px 5px 0 5px;
+}
+
+@media screen and (min-width: 1024px){
+    .bloco__comentários {
+        display: flex;
+        flex-direction: row;
+        margin: 40px 0;
+    }
+
+    .comentario__ricardo {
+        margin: 0 0;
+    }
+
+    .comentario__daniele, .comentario__ricardo {
+        margin: 0 10px 0 10px;
+        width: 100%;
+        height: 180px;
+
+    }
 }
