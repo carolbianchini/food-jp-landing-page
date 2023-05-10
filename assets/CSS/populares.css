@@ -15,6 +15,7 @@
 }
 
 .titulo__pratos-populares {
+    margin-top: 80px;
     margin-bottom: 130px;
     font-family: var(--fonte-titulo);
     text-align: center;

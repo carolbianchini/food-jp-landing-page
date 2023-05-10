@@ -22,3 +22,12 @@
     font-family: var(--fonte-paragrafo-rodapé);
     font-size: 14px;
 }
+
+.rodapé p:hover {
+    cursor: pointer;
+}
+
+#logo__rodapé {
+    font-size: 20px;
+    margin: 0 0;
+}

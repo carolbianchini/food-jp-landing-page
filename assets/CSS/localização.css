@@ -23,8 +23,6 @@
 
 
 .campo__pesquisa {
-   background: url("../imagens/icon-localização.svg");
-   background-repeat: no-repeat;
    height: 40px;
    width: 260px;
    border: 1px solid #292929;
@@ -33,11 +31,15 @@
     align-items: center;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-position: 1em;
+    
 }
 
 .campo__pesquisa::placeholder {
     text-align: center;
+    background: url("../imagens/icon-localização.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+    background-size: 14px;
 }
 
 .botão__pesquisar {
