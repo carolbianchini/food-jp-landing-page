@@ -50,5 +50,36 @@
     padding: 0 0 0 0;
 }
 
+.buscar {
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .titulo__localização {
+        text-align: left;
+    }
+
+    .campo__pesquisa {
+        width: 40%;   
+    }
+
+    .icone__lupa {
+        display: none;
+    }
+
+    .buscar {
+        display: flex;
+        font-family: var(--fonte-paragrafo);
+        color: #FBFBFB;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .botão__pesquisar {
+        width: 80px;
+        padding: 0 20px;
+    }
+}
+
 
 
