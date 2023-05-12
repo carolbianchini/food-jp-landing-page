@@ -1,4 +1,4 @@
-<h1>Food JP Landing Page List</h1>
+<h1>Food JP Landing Page</h1>
 
 ## Índice
 
