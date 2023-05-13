@@ -30,6 +30,6 @@ Ao realizar o projeto aprendi como fazer um menu hamburguer utilizando apenas HT
 
 Para os próximos projetos irei desenvolver mais CSS Grid.
 
-## Autor
+## Auto
 
 - Linkedin - [Ana Carolina Bianchini](https://www.linkedin.com/in/ana-carolina-bianchini-desenvolvedora-front-end/)
