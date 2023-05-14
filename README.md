@@ -24,7 +24,7 @@ URL: [https://to-do-list-nine-iota.vercel.app/](https://food-jp-landing-page.ver
 
 ### O Que Aprendi
 
-Ao realizar o projeto aprendi como fazer um menu hamburguer utilizando apenas HTML e CSS e mobile first. 
+Ao realizar o projeto aprendi como fazer um menu hamburguer utilizando apenas HTML e CSS e mobile first
 
 ### Desenvolvimento Contínuo
 
